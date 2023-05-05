@@ -1,6 +1,4 @@
-
 class SiteController {
-
     // [GET] /news
     index(req, res) {
         res.render('news');
@@ -10,7 +8,6 @@ class SiteController {
     show(req, res) {
         res.send('NEW DETAILS!!!');
     }
-
 }
 
-module.exports = new SiteController;
+module.exports = new SiteController();
